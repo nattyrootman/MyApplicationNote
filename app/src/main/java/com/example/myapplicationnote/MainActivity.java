@@ -45,20 +45,18 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(new Intent(this,ProfileActitvity.class));
 
-                break;
-
+                return true;
             case R.id.logout:
 
 
 
                 startActivity(new Intent(this,LogingActivity.class));
 
-                break;
-
+               return true;
 
             case R.id.setting:
 
-                break;
+                return true;
 
 
 
